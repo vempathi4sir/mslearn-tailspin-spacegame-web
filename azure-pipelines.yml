@@ -41,5 +41,5 @@ trigger:
     displayName: 'Build the project - Release'
     inputs:
       command: 'build'
-      arguments: '--no-restore --configuration Release'
+      arguments: '--no-restore --configuration Debug'
       projects: '**/*.csproj'
